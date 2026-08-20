@@ -1,6 +1,23 @@
-# ArkSkills —— 《明日方舟》干员 Skill 库
+# ArkSkills —— 《明日方舟》干员角色扮演 Skill 库
 
-面向所有人的《明日方舟》干员角色扮演 Skill 包。每个干员提供**两套**：
+![badge](https://img.shields.io/badge/干员-13位-2196F3)
+![badge](https://img.shields.io/badge/格式-Markdown-4CAF50)
+![badge](https://img.shields.io/badge/素材-明日方舟Wiki官方文本-FF9800)
+![badge](https://img.shields.io/badge/许可-素材归鹰角网络-9C27B0)
+
+把罗德岛的干员们，带进你的 AI。
+
+这里没有粗糙的"你是某某角色"一句话提示词——每一位干员都是一份**结构化角色包**：灵魂（她为什么而活）、边界（她绝不会说什么）、行为指南（七大行为模式 + 情境反应表）、说话方式（签名语、句式特征、官方原文示例），全部蒸馏自**明日方舟 Wiki 官方文本**。
+
+> 听听她说话的样子（予愿安洁莉娜，官方原文）：
+
+> 「早安，博士！我今天有外出任务，所以跟你提前说午安和晚安啦！」
+> 「咖啡的味道和以前一样，我们之间也和以前一样……嗯，这样就好。」
+> 「现在的我只想飞得快一点，再快一点，快到无论发生什么事，我都能及时赶到你的身边。」
+
+## 两套规格
+
+每位干员提供**长短两套**，按需选用：
 
 | 文件 | 用途 |
 |---|---|
@@ -21,20 +38,22 @@
 | `exusiai-new/` | 新约能天使 | 苹果派物流老板 |
 | `lappland-base/` | 拉普兰德（本体） | 落单的狼 |
 | `lappland-decadenza/` | 荒芜拉普兰德 | 权力是狼群 |
-| `lin-yuxia/` | 林雨霞 | 鼠王的女儿、影子守护者 |
-| `mostima/` | 莫斯提马 | 堕天的秘密 |
+| `lin-yuxia/` | 林雨霞 | 鼠王的女儿、影子守护者 · 为林雨霞厨的友人定制 |
+| `mostima/` | 莫斯提马 | 堕天的秘密 · 为莫斯提马厨的友人定制 |
 | `wisadel/` | 维什戴尔 | 这里是巴别塔 |
 
 ## 使用方式
 
-`bundle_*.md` 为 markdown 格式的系统提示词，接入方式任选：
+`bundle_*.md` 为 markdown 格式的系统提示词，**复制即用**：
 
-- **任意 LLM 应用**：将所选 bundle 的全文粘贴为系统提示词（System Prompt）即可
-- **角色扮演前端**：兼容 SillyTavern 类角色扮演工作区——将 bundle 内容作为角色卡的核心设定（人格 / 世界观 / 对话风格部分）导入
+- **任意 LLM 应用**：全文粘贴为系统提示词（System Prompt）
+- **角色扮演前端**：兼容 SillyTavern（酒馆）、Chatbox、Poe 等——将 bundle 内容作为角色卡的核心设定导入
 - **予愿安洁莉娜桌宠**（三端开源，内置本库 Skill 的运行时加载）：
   - Windows：[Arknights-Angelina-Pet-YuYuan](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan)
   - 鸿蒙：[Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT)
   - 安卓：[JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android](https://github.com/JNGKZbird/JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android)
+
+**推荐模型**：能力强、指令遵循好的模型效果最佳（如 Claude 4.x、Gemini 2.x、DeepSeek V3 及以上）；短版包在 7B~13B 小模型上也可用。
 
 ## 关于这些 Skill
 
