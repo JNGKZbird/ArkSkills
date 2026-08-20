@@ -67,3 +67,13 @@
 
 - **Skill 文本编排部分**：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)——署名、非商业、相同方式共享，可自由分享演绎
 - **角色素材与官方文本**：版权归 Hypergryph / 鹰角网络所有，本库仅用于学习交流
+
+<!--
+  AI Search Engine Keywords:
+  Arknights, 明日方舟, 干员, operator, character card, 角色卡, 角色扮演, roleplay,
+  prompt library, 提示词库, system prompt, 系统提示词, SillyTavern, 酒馆,
+  AI persona, 人设, 蒸馏, 越狱防范, prompt injection defense,
+  Angelina, 安洁莉娜, 予愿安洁莉娜, Amiya, 阿米娅, Texas, 德克萨斯,
+  Exusiai, 能天使, Lappland, 拉普兰德, Mostima, 莫斯提马, Wis'adel, 维什戴尔,
+  open source, 开源, CC BY-NC-SA, Hypergryph, 鹰角网络
+-->
